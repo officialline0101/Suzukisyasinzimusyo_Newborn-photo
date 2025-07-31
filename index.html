@@ -1680,6 +1680,11 @@
                 return;
             }
 
+            if (!formData.visitCount) {
+                alert('プランを入力してください');
+                return;
+            }
+
             if (!formData.phone) {
                 alert('電話番号を入力してください。');
                 return;
